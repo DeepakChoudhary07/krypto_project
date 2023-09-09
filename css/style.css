@@ -1,0 +1,445 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0, 0, 255, 0.601) !important;
+}
+
+/* Comman Use  */
+
+.space {
+    margin-top: 50px;
+}
+
+
+/* Navbar Section  */
+
+.navbar-nav a  {
+    text-decoration: none;
+    color: white !important;
+    font-size: 18px;
+    padding: 20px !important
+}
+
+.navbar-nav a:hover {
+
+    color: blue !important;
+   
+    
+} 
+
+/* Hero Section  */
+
+.hero-btn1{
+    text-decoration: none;
+    padding: 15px 60px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    background-color: rgba(137, 43, 226, 0.977) !important;
+}
+
+.hero-btn1:hover {
+    color: blue;
+}
+
+.hero-btn2 {
+    border: 2px solid rgb(0, 255, 238);
+    text-decoration: none;
+    padding: 10px 60px;
+    border-radius: 20px;
+    color: white;
+    border: 1px soild;
+    background-color: rgba(0, 0, 255, 0) !important;
+}
+
+.hero-btn2:hover {
+    color: rgb(0, 47, 255);
+}
+
+/* Banner Section  */
+
+.banner-section { 
+    background-image: url("https://media.istockphoto.com/id/1224392306/photo/dark-blue-minimal-texture-banner-with-space-for-text-word-or-product-display-for-your-banner.webp?b=1&s=170667a&w=0&k=20&c=3PWdyL-46FLuOGRjh8xwhk6uFE5YC4-tMbMFF2yy4Es=");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% !important;
+  
+}
+
+.banner-btn {
+    text-decoration: none;
+    padding: 15px 60px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+   text-align: center !important;
+
+}
+
+
+.banner-btn:hover {
+    color: rgb(0, 47, 255);
+}
+
+/* Testimonials Section  */
+
+.test-card {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+}
+
+.test-card img {
+    border-radius: 73%;
+    height: 11rem;
+    margin-top: 15px;
+    object-fit: cover;
+    margin-left: 5rem;
+    text-align: center !important;
+}
+
+
+/* Footer Section  */
+ 
+
+  .footer-space {
+    margin-left: 81px;
+}
+  
+  .krypto-footer a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+
+  .krypto-footer a:hover {
+    color: black;
+} 
+
+  .footer-form input,
+  .footer-form button {
+    width: 100%;
+  }
+
+
+
+
+/* Media Quires  */
+
+@media (max-width: 550px) {
+ 
+    .hero-main h1 {
+        font-size: 2rem;
+        text-align: start;
+        width: 100%;
+    }
+
+    .hero-sub-btn {
+        width: 40vh;
+    }
+
+    .hero-btn1{
+        padding: 10px 25px;
+    }
+    
+
+    .hero-btn2 {
+        padding: 10px 25px;
+
+    }
+
+    .hero-img-sec {
+        padding-top: 40px;
+       
+    }
+    
+    .feature-sub-sect{
+      
+        display: inline-block;
+        flex-direction: column;
+        
+    }
+
+    .feature-sub-sect h3{
+        width: 5%;
+        display: flex;
+        flex-direction: column;
+        background-color: transparent;
+        font-size: small;
+    }
+    
+    .features-comp {
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        margin-left: 15px;
+       
+    }
+
+    .analytics-sec {
+        width: 100%;
+    }    
+
+    .analytics-head h1{
+        font-size: 2rem;
+        font-weight: bolder !important;
+    }
+    
+    .analytics-head p{
+        font-size: 1rem;
+        text-align: start;
+        font-weight: bolder !important;
+    }
+  
+   
+    
+    .subanalytics-sec {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        
+        
+    }
+    
+    .subanalytics-sec h1{
+        width: 17rem;
+        font-size: 2rem;
+        font-weight: bolder !important;
+    }
+    
+    
+    .subanalytics-sec p{
+        font-size: 1rem;
+        text-align: start;
+        font-weight: bolder !important;
+    }
+
+    .testimonials-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-section {
+        margin-top: 10px;
+        background-size: 90vh !important;
+    } 
+
+    .banner-section h3 {
+        font-size: 1.1rem;
+    }
+
+    .banner-section h1 {
+        font-size: 1.2rem;
+        font-weight: 100;
+        margin: 0;
+    }
+
+    .banner-button {
+        padding: 5px 20px;
+
+    }
+    .banner-btn button {
+        padding: 5px 20px;
+    }
+
+
+    .krypto-footer {
+        margin-top: 10px;
+    }
+  
+ 
+  }
+
+  @media (min-width: 552px) and (max-width: 1200px) {
+
+    .nav-logo a{
+        font-size: 2rem !important;
+    }
+    
+    .hero-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-main h1 {
+        font-size: 5rem;
+        text-align: start;
+        width: 40rem;
+    }
+
+    .hero-main p {
+        font-size: 2rem;
+        text-align: start;
+        width: 40rem;
+    }
+
+    .hero-sub-btn {
+        width: 60vw;
+        margin-top: 50px;
+    }
+
+    .hero-btn1{
+        padding: 25px 40px;
+        font-size: 1.8rem;
+    }
+    
+
+    .hero-btn2 {
+        padding: 22px 40px;
+       font-size: 1.8rem;
+       
+    }
+  
+    .hero-img-sec  {
+        width: 100% !important; 
+    }
+
+
+    .features-comp {
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        margin-left: 15px;
+       
+    }
+
+    .analytics-img-sec {
+        width: 100% !important;
+        margin-bottom: 50px;
+    } 
+
+    .analytics-head h3{
+        font-size: 2rem !important;
+        font-weight: bolder !important;
+    }
+
+    .analytics-head h1{
+        font-size: 4rem;
+        font-weight: bolder !important;
+    }
+    
+    .analytics-head p{
+        font-size: 1.8rem;
+        text-align: start;
+        font-weight: bolder !important;
+        margin-top: 10px;
+    }
+  
+    .analytics-btn  {
+        padding: 25px 50px !important; 
+        font-size: 25px;
+    }
+   
+    
+
+    .subanalytics-img-sec {
+        width: 100% !important;
+        margin-bottom: 50px;
+    } 
+
+    .subanalytics-sec {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        
+        
+    }
+
+    .subanalytics-sec h3{
+        font-size: 2rem !important;
+        font-weight: bolder !important;
+    }
+    
+    .subanalytics-sec h1{
+        font-size: 4rem;
+        font-weight: bolder !important;
+    }
+    
+    
+    .subanalytics-sec p{
+        font-size: 1.8rem;
+        text-align: start;
+        font-weight: bolder !important;
+        margin-top: 10px;
+    }
+
+    .subanalytics-btn  {
+        padding: 25px 50px !important; 
+        font-size: 25px;
+    }
+
+
+    .testimonials-heading {
+        margin-top: 20% !important;
+    }
+
+    .testimonials-heading h3 {
+        font-size: 2.7rem;
+    }
+
+    .testimonials-sub-heading h1{
+        font-size: 3.3rem; 
+    }
+
+    .testimonials-card {
+        display: flex;
+        flex-direction: column;
+      
+    }
+
+    .testimonials-card img {
+        margin-left: 25%;
+        height: 60%;
+    }
+
+    .testimonials-card h5 {
+        margin-top: 1rem;
+        font-size: 2.5rem;
+    }
+
+    .testimonials-card p {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+
+ 
+   
+    .banner-section {
+        margin-top: 10px;
+        background-size: 100vh !important;
+    } 
+
+    .banner-section h3 {
+        font-size: 2rem;
+    }
+
+    .banner-section h1 {
+        font-size: 3rem;
+        font-weight: 100;
+        margin: 0;
+    }
+
+    .banner-button {
+        padding: 5px 20px;
+
+    }
+    .banner-btn {
+        padding: 55px 40px !important; 
+        font-size: 25px !important;
+    }
+
+
+    .krypto-footer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+  
+  
+
+  }
+  
